@@ -1,4 +1,5 @@
-import nhapgiatri;
+import java.util.Scanner;
+import java.util.Arraylist;
 
 public class Bai10 {
     public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class Bai10 {
         System.out.print("Nhap so phan tu: ");
         int n = sc.nextInt();
         System.out.println("Nhap cac phan tu:");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < list.size(); i++) {
             list.add(sc.nextInt());
         }
 
@@ -38,3 +39,4 @@ public class Bai10 {
         sc.close();
     }
 }
+
